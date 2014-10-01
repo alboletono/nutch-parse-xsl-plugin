@@ -1,0 +1,13 @@
+<rules>
+	<rule matches="http://www.jeterecherche.*recherche_personne_result.*">
+		<transformer file="src/plugin/parse-xsl/src/tests/files/jeterecherche/transformer_people.xsl" />
+		
+		
+	</rule>
+	 
+	<rule matches="http://www.jeterecherche.*avis_de_recherche_fiche.php.*">
+		<transformer file="src/plugin/parse-xsl/src/tests/files/jeterecherche/transformer_wanted_people.xsl" />
+		
+	</rule>
+	
+</rules>

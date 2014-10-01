@@ -1,0 +1,13 @@
+<rules>
+	<rule matches="http://copainsdavant\.linternaute\.com/p/\w+-\w+-\d+">
+		<transformer file="src/plugin/parse-xsl/src/tests/files/copainsdavant/transformer_people.xsl" />
+		
+		
+	</rule>
+	 
+	<rule matches="http://copainsdavant.linternaute.com/recherche-amis/\w+-\w+-\d+">
+		<transformer file="src/plugin/parse-xsl/src/tests/files/copainsdavant/transformer_wanted_people.xsl" />
+		
+	</rule>
+	
+</rules>

@@ -1,0 +1,8 @@
+- Is it possible to get jaxb libraries directly into apache maven repository ? Or add it directly in the plugin?
+- Add XSLT 2.0 capability (saxon?) 
+- Add TagSoup capability
+- How to manage JUnit 4 dependencies?
+- Enhance rules.xml
+  - enable/disable snippet
+  - set a mandatory meta. If not found, document is ignored (not enough "interesting", no added value)
+  

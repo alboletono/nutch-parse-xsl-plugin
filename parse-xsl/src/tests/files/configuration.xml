@@ -1,0 +1,35 @@
+<configuration>
+    <!-- Not yet implemented. Xslt is the preferred solution -->
+    <!-- 
+	<property>
+		<name>amisfinder.useXslt</name>
+		<value>true</value>
+		<description>Wether to use Xslt (set by default, then you will have to
+			provide an xsl file to use) or NodeWalker technique (then you will
+			have to develop it in java)
+		</description>
+	</property>
+	-->
+	<property>
+		<name>parser.xsl.useSaxon</name>
+		<value>false</value>
+		<description>Wether to use Saxon or Standard JVM XSLT parser
+		</description>
+	</property>
+	<property>
+		<name>parser.xsl.rulesFile</name>
+		<value>src/plugin/parse-xsl/src/tests/files/copainsdavant/rules.xml
+		</value>
+		<description>The XML file that contains rules to use
+		</description>
+	</property>
+	<property>
+		<name>parser.xsl.output.debug.file</name>
+		<value>src/plugin/parse-xsl/src/tests/files/copainsdavant/output.xml
+		</value>
+		<description>The output of the transformation for debug purpose (log
+			level "DEBUG"
+			shall be activated)
+		</description>
+	</property>
+</configuration>
